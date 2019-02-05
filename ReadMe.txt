@@ -18,3 +18,12 @@ Actually most of the times, using Interfaces and abstract classes together is th
 Scenario 2:
 We should always start with an interface as base and define methods that every subclasses should implement and then if there are some methods that only certain subclass should implement, we can extend the base interface and create a new interface with those methods. 
 
+
+
+JavaEE vs JavaSE
+The JavaEE differs from JavaSE in terms of libraries it provides to deploy: 
+- Fault-tolerance
+- distributed and 
+- multi-tier Java software, based largely on modular components running on an application server.
+
+
