@@ -11,7 +11,7 @@ If our base contract keeps on changing then interfaces can cause issues because 
 
 We can override all the interface methods in abstract parent class and in child class override those methods only which is required by that particular child class.
 
-![interface_pic1](https://user-images.githubusercontent.com/3334548/53125367-77b52b00-3523-11e9-8fe8-b1a4437e8b72.PNG)
+![interface_pic1](https://user-images.githubusercontent.com/3334548/53125544-e2666680-3523-11e9-867d-be59721d2ec4.PNG)
 
 
 Use Abstract classes and Interface both:
