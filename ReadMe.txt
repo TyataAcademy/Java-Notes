@@ -11,7 +11,7 @@ If our base contract keeps on changing then interfaces can cause issues because 
 
 We can override all the interface methods in abstract parent class and in child class override those methods only which is required by that particular child class.
 
-!(https://github.com/TyataAcademy/Java-Notes/blob/master/Interface_Pic1.PNG)
+![Diagram](https://github.com/TyataAcademy/Java-Notes/blob/master/Interface_Pic1.PNG)
 
 
 Use Abstract classes and Interface both:
