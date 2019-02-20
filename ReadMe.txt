@@ -9,6 +9,10 @@ Java doesn’t support multiple class level inheritance, so every class can exte
 If there are a lot of methods in the contract, then abstract class is more useful because we can provide default implementation for some of the methods that are common for all the subclasses. Also if subclasses don’t need to implement particular method, they can avoid providing the implementation but in case of interface, the subclass will have to provide implementation for all the methods even though it’s of no use and implementation is just empty block.
 If our base contract keeps on changing then interfaces can cause issues because we can’t declare additional methods to the interface without changing all the implementation classes, with abstract class we can provide the default implementation and only change the implementation classes that are actually going to use the new methods.
 
+We can override all the interface methods in abstract parent class and in child class override those methods only which is required by that particular child class.
+
+![Diagram 1](https://github.com/TyataAcademy/Java-Notes/blob/master/Interface_Pic1.PNG)
+
 
 Use Abstract classes and Interface both:
 
