@@ -1,4 +1,4 @@
-Interface and Abstract Class Design Decision:
+### Interface and Abstract Class Design Decision:
 
 While Designing applicaiton we need to design carefully. Basically, Interface is used in most of the cases where we need to use contract. Contract will have list of method signatures only and we will created classes that implements that interface. Where as Abstract class is used in those scenario where some method can have default implementation on subclass and some method would need to implements in subclass per their requirements.
 
