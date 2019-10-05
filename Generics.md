@@ -24,5 +24,11 @@ When re-written to use generics, the code does not require casting:
 Enabling programmers to implement generic algorithms.
 By using generics, programmers can implement generic algorithms that work on collections of different types, can be customized, and are type safe and easier to read.
 
+
+*The two major benefits of generics in Java are:*
+
+* Reducing the number of casts in your program, thus reducing the number of potential bugs in your program.
+* Improving code clarity
+
 Reference: 
 [Link](https://docs.oracle.com/javase/tutorial/java/generics/why.html)
