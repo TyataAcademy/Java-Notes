@@ -1,0 +1,34 @@
+void org.apache.commons.beanutils.BeanUtils.copyProperty(Object bean, String name, Object value) throws IllegalAccessException, InvocationTargetException
+
+Copy the specified property value to the specified destination bean, performing any type conversion that is required.
+
+For more details see BeanUtilsBean.
+
+Parameters:
+bean Bean on which setting is to be performed
+name Property name (can be nested/indexed/mapped/combo)
+value Value to be set
+Throws:
+IllegalAccessException - if the caller does not have access to the property accessor method
+InvocationTargetException - if the property accessor method throws an exception
+See Also:
+BeanUtilsBean.copyProperty
+
+
+Below is an example: 
+		if(!CollectionUtils.isEmpty(objectList)){
+			for (final Obj obj : objectList) {
+				String value = obj.getValue();
+				if(value!=null && StringUtils.isNotEmpty(value)){
+					String property = "exampleCode"+String.format("%02d", counter);
+					try {
+						BeanUtils.copyProperty(mainClass, property, value);
+					}catch(InvocationTargetException ite) {
+						LOG.error("value not found"+ite);
+					} catch (IllegalAccessException e) {
+						LOG.error("value not found"+e);
+					}					
+				}
+				counter++;
+			}			
+		}
